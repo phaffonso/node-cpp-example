@@ -1,0 +1,20 @@
+{
+  "name": "node-cpp-example",
+  "version": "0.0.0",
+  "description": "Example usage of Node.js Addons compiled with SWIG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phaffonso/node-cpp-example.git"
+  },
+  "author": "Pedro Affonso (based on code by http://stackoverflow.com/users/1103705/enobayram)",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/phaffonso/node-cpp-example/issues"
+  }
+}
